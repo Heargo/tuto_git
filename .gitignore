@@ -1,0 +1,26 @@
+# Python venv
+venv/
+.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# VSCode settings
+.vscode/
+
+# Data files
+*.csv
+
+# Jupyter
+.ipynb_checkpoints
+
+# Logs
+*.log
