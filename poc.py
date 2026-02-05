@@ -134,7 +134,7 @@ class InverseModel:
         desired_y = np.array(desired_y)
 
         # --- 2. DEFINE THE SEARCH MATH (OBJECTIVE) ---
-        def objective_function(x_input):
+        def objective_function_rename_dev_2(x_input):
             # We want the difference between (Prediction) and (Target) to be zero
             prediction = self.model.predict([x_input])[0]
             # Mean Squared Error: ensures all targets are weighted
